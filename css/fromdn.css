@@ -1,0 +1,414 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+header{
+    
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+   
+    
+}
+
+header .top-header {
+    height: 80px;
+    line-height: 80px;
+}
+
+header .top-header .logo {
+    max-height: 80px;
+    float: left;
+}
+
+header .top-header .logo a img{
+    max-height: 80px;
+}
+
+header .top-header .input {
+    float: left;
+    margin-left: 30px;
+    
+}
+
+header .top-header .input form {
+    height: 80px;
+    width: auto;
+}
+
+header .top-header .input form .input1 {
+    float: left;
+    margin-right: 5px;
+    
+}
+header .top-header .input form .input1 .danhmuc{
+    height: 33px;
+}
+
+header .top-header .input form .input2 {
+    float: left;
+    
+}
+
+header .top-header .input form .input2 button{
+    height: 30px;
+    width: 30px;
+    margin-left: -10px;
+    background-color: white;
+    border: 1px solid #938e8e;
+    border-left: none;
+    
+}
+
+header .top-header .input form .input2 input{
+    height: 30px;
+    width: 250px;
+}
+
+header .top-header .header-right {
+    float: right;
+}
+
+header .top-header ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header .top-header ul  li {
+    float: left;
+    margin-right: 15px;
+    list-style-type: none;
+    
+}
+
+header .top-header ul  li a{
+    text-decoration: none;
+}
+
+header .top-header ul  li a:hover{
+    color: red;
+}
+
+nav{
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+    margin: 0 auto
+}
+
+.menu  li{
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+.menu > li:first-child{
+    background-color: #F8694A;
+    width: 25%;
+    text-align: left;
+}
+
+.menu > li > a:hover{
+    color: #F8694A;
+}
+
+
+
+.menu > li > span {
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    color: white;
+}
+
+nav .menu .submenu {
+    position: relative;
+}
+
+nav .menu .submenu .menucon {
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    left: -25px;
+}
+
+nav .menu .submenu:hover .menucon{
+    display: block;
+    
+}
+nav .menu .submenu .menucon li {
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+}
+
+nav .menu .submenu .menucon li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 14px;
+   
+}
+
+nav .menu .submenu .menucon li a:hover{
+    color: #F8694A;
+}
+
+.container_end{
+    width: 100%;
+    background-color: #DADADA;
+    height: 100%;
+  
+    
+}
+
+.container_end .container_ends{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.container_end .container_ends .col{
+    display: flex;
+    padding-top: 50px;
+}
+
+.container_end .container_ends .col .footer{
+    flex: 25%;
+}
+
+.container_end .container_ends .col .footer .footer-logo{
+    margin-bottom: 30px;
+}
+
+.container_end .container_ends .col .footer .footer-social li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.container_end .container_ends .col .footer .footer-social li a i:hover{
+   color: #F8694A;
+}
+
+.container_end .container_ends .col .footer .list-links{
+    margin-top: 20px;
+}
+
+.container_end .container_ends .col .footer h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    
+
+}
+.container_end .container_ends .col .footer .list-links li{
+    list-style-type: none;
+    padding: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.container_end .container_ends .col .footer .list-links li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container_end .container_ends .col .footer p{
+    margin-top: 25px;
+}
+
+.container_end .container_ends .col .footer form{
+    margin-top: 15px;
+}
+
+.container_end .container_ends .col .footer form .input{
+    height: 35px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.container_end .container_ends .col .footer form .primary-btn{
+    height: 35px;
+    background-color: #F8694A;
+    width: 50%;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container_end .container_ends .col .footer form .primary-btn:hover{
+    background-color: #30323A;
+}
+
+.container_end .container_ends .row{
+    border-top: 1px solid #F8694A;
+    margin-top: 30px;
+}
+
+.container_end .container_ends .row .footer-copyright{
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    padding: 35px 0px;
+
+}
+
+
+
+
+.formbody{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.formbody .title {
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.formbody form .formdn .login{
+    margin-bottom: 15px;
+    
+}
+.formbody form .formdn{
+    width: 100%;
+    margin: 0 auto;
+}
+.formbody form .formdn .login input{
+    padding: 10px;
+    border-radius: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+.formbody form .formdn .login input:focus {
+    outline: none;
+    border: 1px solid #ec2971;
+}
+
+.formbody form .formdn .login:last-child input{
+    margin-bottom: 20px;
+    background-color: #ee3e80;
+    color: white;
+    line-height: normal !important;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.formbody form .formdn .login:last-child input:hover{
+    background-color: #ec2971;
+}
+.formbody form .formdn .login a{
+    color: #ee3e80;
+    text-decoration: none;
+}
+
+.formbody .dngg a img{
+    border-radius: 10px;
+}
+.formbody .dnfb{
+    background-color: #235dd1;
+    border-radius: 10px;
+}
+.formbody .dnfb{
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px ;
+}
+.formbody .dnfb a img{
+    vertical-align: middle;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+.formbody .dnfb a {
+    text-decoration: none;
+}
+.formbody .dnfb a span{
+    color: white;
+    text-transform: 700;
+}
+
+.formbody .login-bottom p{
+    margin: 15px 0;
+}
+.formbody .login-bottom button{
+    width: 100%;
+    border-radius: 24px;
+    background-color: #ffe9f1;
+    border: none;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 1px solid pink;
+}
+.formbody .login-bottom button a{
+    text-decoration: none;
+    color: #ee3e80;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+}
+.formbody .login-bottom button:hover{
+    background-color: #ffaaca
+}
+
+@media screen and (max-width:1100px)
+{
+    .main header .top-header .input{
+        display: none;
+    }
+    .main nav{
+        display: none;
+    }
+    .main header .top-header .logo{
+        height: 50px;
+        line-height: 50px;
+    }
+    .main header .top-header .header-right{
+       display: none;
+    }
+    .formbody{
+        width: 60%;
+        margin-top: 0;
+    }
+    .formbody .dngg a img{
+        width: 215px;
+    }
+    .formbody .dnfb {
+        width: 100%;
+    }
+    .container_end .container_ends .col{
+        display: block;
+    }
+    .container_end .container_ends .col .footer h3{
+        margin-top: 50px;
+    }
+}
